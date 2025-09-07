@@ -1,0 +1,232 @@
+{
+  "slogan": "Revolutionary Intelligent Financial Analysis Platform",
+  "nav": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "company": "Company",
+    "analysisTypes": "Analysis Types",
+    "features": "Features",
+    "pricing": "Pricing",
+    "howTo": "How to Use",
+    "contact": "Contact & Support"
+  },
+  "auth": {
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "signOut": "Sign Out"
+  },
+  "search": {
+    "placeholder": "Search the system..."
+  },
+  "notifications": {
+    "title": "Notifications",
+    "new_analysis": "New analysis available",
+    "minutes_ago": "minutes ago"
+  },
+  "hero": {
+    "subtitle": "A Revolution in Financial Analysis",
+    "description": "A system that turns the world upside down. A revolution that challenges all global financial analysis experts",
+    "startNow": "Start Now",
+    "watchDemo": "Watch Demo"
+  },
+  "stats": {
+    "analyses": "Analysis Types",
+    "accuracy": "Accuracy",
+    "speed": "Seconds",
+    "reports": "Report Pages"
+  },
+  "why": {
+    "title": "Why FinClick.AI?",
+    "subtitle": "A complete platform that replaces any financial manager, analyst, or expert"
+  },
+  "features": {
+    "revolution": "Revolution in Financial Analysis",
+    "revolutionDesc": "A system that changes all standards and provides a quantum leap in financial analysis",
+    "allUsers": "Serves All Users",
+    "allUsersDesc": "Serves all financial analysis beneficiaries (individuals, institutions, companies, organizations)",
+    "aiPowered": "AI-Powered",
+    "aiPoweredDesc": "Latest artificial intelligence and machine learning technologies",
+    "allAnalysis": "All Analysis Types",
+    "allAnalysisDesc": "Provides all known financial analysis types in the world - 181+ analyses",
+    "cloudBased": "Cloud Environment",
+    "cloudBasedDesc": "Access from anywhere, anytime, on any device",
+    "professional": "Professional Interface",
+    "professionalDesc": "Clear interface and presentation suitable for everyone",
+    "speed": "Speed",
+    "speedDesc": "Get analysis in seconds with one click",
+    "simplicity": "Simplicity",
+    "simplicityDesc": "3 simple steps (Upload - Select - Analyze)",
+    "accuracy": "Accuracy & Efficiency",
+    "accuracyDesc": "99% accuracy rate",
+    "security": "High Security",
+    "securityDesc": "Highest security and privacy standards",
+    "genius": "Genius Financial Analyst",
+    "geniusDesc": "Helps everyone make instant financial decisions",
+    "reports": "Reports & Presentations",
+    "reportsDesc": "Detailed reports and professional presentations",
+    "comparisons": "Global Comparisons",
+    "comparisonsDesc": "Comparisons at all global levels",
+    "quality": "World-Class Quality",
+    "qualityDesc": "Highest quality and professionalism standards"
+  },
+  "steps": {
+    "title": "How to Use the System",
+    "subtitle": "3 simple steps to get comprehensive financial analysis",
+    "step1": {
+      "title": "Upload Your Statements",
+      "description": "Upload financial statements or trial balances in any format (PDF, Excel, Word, Images)"
+    },
+    "step2": {
+      "title": "Select Analysis Options",
+      "description": "Choose sector, activity, legal entity, comparison type, and number of years"
+    },
+    "step3": {
+      "title": "Click Analyze",
+      "description": "Get 181 detailed financial analysis types in seconds"
+    }
+  },
+  "analysis": {
+    "title": "Financial Analysis Types",
+    "subtitle": "181 comprehensive and integrated financial analysis types",
+    "types": "analysis types",
+    "basic": "Classical Foundational Analysis",
+    "applied": "Applied Intermediate Analysis",
+    "advanced": "Advanced Sophisticated Analysis",
+    "structural": "Structural Statement Analysis",
+    "ratios": "Basic Financial Ratios",
+    "flow": "Flow and Movement Analysis",
+    "comparison": "Advanced Comparison Analysis",
+    "valuation": "Valuation and Investment Analysis",
+    "performance": "Performance and Efficiency Analysis",
+    "modeling": "Modeling and Simulation",
+    "statistical": "Statistical and Quantitative Analysis",
+    "portfolio": "Portfolio and Risk Analysis",
+    "prediction": "Smart Detection and Prediction",
+    "viewAll": "View All Analysis Types"
+  },
+  "tools": {
+    "title": "Free Tools to Attract Visitors",
+    "subtitle": "Benefit from our powerful free tools",
+    "news": {
+      "title": "Financial & Economic News",
+      "item1": {
+        "title": "TASI Index rises by 1.5%",
+        "time": "5 minutes ago"
+      },
+      "item2": {
+        "title": "Central Bank maintains interest rates",
+        "time": "15 minutes ago"
+      },
+      "item3": {
+        "title": "Aramco announces quarterly results",
+        "time": "30 minutes ago"
+      }
+    },
+    "calendar": {
+      "title": "Economic Calendar",
+      "event1": "Unemployment Results",
+      "time1": "10:30 AM",
+      "event2": "Central Bank Meeting",
+      "time2": "2:00 PM",
+      "event3": "Economic Growth Report",
+      "time3": "4:30 PM"
+    },
+    "calculator": {
+      "title": "Fair Stock Price Calculator",
+      "placeholder": "Enter company name or stock symbol",
+      "calculate": "Calculate Fair Price",
+      "result": "Fair stock price:"
+    },
+    "mood": {
+      "title": "Market Mood Indicator",
+      "bullish": "Bullish",
+      "bearish": "Bearish"
+    },
+    "bot": {
+      "title": "Financial GPT Bot",
+      "welcome": "Hello! How can I help you with financial analysis today?",
+      "placeholder": "Type your question here...",
+      "send": "Send"
+    }
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "subtitle": "Opinions from our distinguished clients",
+    "client1": {
+      "name": "Ahmed Mohammed",
+      "role": "Company Manager",
+      "content": "A comprehensive and integrated system that helped me understand my company's performance quickly, accurately, and easily. It's a wonderful system that provides all types of financial analysis and comparisons at all levels, generating reports and presentations. I recommend it to all companies."
+    },
+    "client2": {
+      "name": "Sarah Ahmed",
+      "role": "Financial Analyst",
+      "content": "As a manager and financial analyst, I no longer need to waste time on long calculations for hours and weeks. All my work has become easier and my meetings more professional."
+    },
+    "client3": {
+      "name": "Khalid Al-Omari",
+      "role": "Investor",
+      "content": "As an investor, I can now make instant investment decisions and identify company stocks I want to invest in with confidence. Thank you for this smart system. Also, thank you for the free fair stock price calculator - it's really useful."
+    },
+    "client4": {
+      "name": "Fatima Al-Zahrani",
+      "role": "Bank Employee",
+      "content": "In my work as an employee responsible for financing and lending operations, the system has helped me evaluate companies quickly and accurately, making financing and lending decisions quickly and wisely."
+    }
+  },
+  "pricing": {
+    "title": "Subscription Plans",
+    "subtitle": "Choose the right plan for you",
+    "subscribe": "Subscribe Now",
+    "subscribeBest": "Subscribe Now (Best Value)",
+    "paymentMethods": "Available Payment Methods:",
+    "monthly": {
+      "title": "Monthly Plan",
+      "currency": "SAR / month"
+    },
+    "annual": {
+      "title": "Annual Plan",
+      "currency": "SAR / year",
+      "save": "Save 10%",
+      "saveAmount": "Save 6,000 SAR"
+    },
+    "features": {
+      "feature1": "181 financial analysis types",
+      "feature2": "Reports and presentations",
+      "feature3": "Global comparisons",
+      "feature4": "24/7 technical support",
+      "feature5": "Priority for new updates"
+    }
+  },
+  "cta": {
+    "title": "Start Your Journey to Smart Financial Analysis",
+    "subtitle": "Join thousands of companies using FinClick.AI to make smart financial decisions",
+    "button": "Start Your Free Trial"
+  },
+  "footer": {
+    "description": "Revolutionary Intelligent Financial Analysis Platform - We provide 181 financial analysis types with one click",
+    "contact": "Contact & Support",
+    "legal": "Legal Policies",
+    "system": "System",
+    "company": "Company",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "security": "Security",
+    "compliance": "Compliance",
+    "intellectual": "Intellectual Property Policy",
+    "payment": "Payment & Subscription Policy",
+    "otherPolicies": "Other Policies",
+    "features": "System Features",
+    "analysisTypes": "Analysis Types",
+    "pricing": "Pricing",
+    "manual": "System Manual",
+    "faq": "FAQ",
+    "vision": "Vision, Mission & Goals",
+    "events": "Events",
+    "blog": "Blog / News",
+    "media": "Media",
+    "careers": "Careers",
+    "rights": "All Rights Reserved",
+    "madeWith": "Made with",
+    "inKSA": "in Saudi Arabia"
+  }
+}
