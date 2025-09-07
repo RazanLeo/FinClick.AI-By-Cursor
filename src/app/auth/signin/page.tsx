@@ -1,31 +1,53 @@
-'use client';
+'use client'
 
-import { useState } from 'react';
-import { useAuth } from '@/hooks/useAuth';
+import { useState } from 'react'
 
-export default function SignInPage() {
-  const { signIn, loading } = useAuth();
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+export default function SignIn() {
+  const [language, setLanguage] = useState<'ar' | 'en'>('en')
 
-  const onSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    await signIn(email, password);
-  };
+  const t = (ar: string, en: string) => (language === 'ar' ? ar : en)
 
   return (
-    <div className="min-h-screen bg-black text-gold flex items-center justify-center p-6">
-      <form onSubmit={onSubmit} className="w-full max-w-md space-y-4 border border-gold/40 rounded-xl p-6">
-        <h1 className="text-2xl font-bold">تسجيل الدخول</h1>
-        <input className="input-gold w-full" placeholder="Email" value={email} onChange={(e)=>setEmail(e.target.value)} />
-        <input className="input-gold w-full" type="password" placeholder="Password" value={password} onChange={(e)=>setPassword(e.target.value)} />
-        <button disabled={loading} className="btn-gold w-full" type="submit">{loading ? '...' : 'دخول'}</button>
-        <div className="text-xs opacity-70">
-          Admin: Razan@FinClick.AI / RazanFinClickAI@056300 — Guest: Guest@FinClick.AI / GuestFinClickAI@123321
-        </div>
-      </form>
+    <div className="min-h-screen bg-black text-white flex items-center justify-center">
+      <div className="bg-black/50 border border-gold/20 rounded-xl p-8 w-full max-w-md">
+        <h1 className="text-3xl font-bold text-gold mb-8 text-center">
+          {t('تسجيل الدخول', 'Sign In')}
+        </h1>
+        <form className="space-y-6">
+          <div>
+            <label className="block text-gold/70 text-sm font-medium mb-2">
+              {t('البريد الإلكتروني', 'Email')}
+            </label>
+            <input
+              type="email"
+              className="w-full px-4 py-3 bg-black/50 border border-gold/20 rounded-lg text-white focus:border-gold focus:outline-none"
+              placeholder={t('أدخل بريدك الإلكتروني', 'Enter your email')}
+            />
+          </div>
+          <div>
+            <label className="block text-gold/70 text-sm font-medium mb-2">
+              {t('كلمة المرور', 'Password')}
+            </label>
+            <input
+              type="password"
+              className="w-full px-4 py-3 bg-black/50 border border-gold/20 rounded-lg text-white focus:border-gold focus:outline-none"
+              placeholder={t('أدخل كلمة المرور', 'Enter your password')}
+            />
+          </div>
+          <button
+            type="submit"
+            className="w-full bg-gold text-black py-3 rounded-lg font-semibold hover:bg-gold/90 transition-colors duration-300"
+          >
+            {t('تسجيل الدخول', 'Sign In')}
+          </button>
+        </form>
+        <p className="text-gold/70 text-sm text-center mt-6">
+          {t('ليس لديك حساب؟', "Don't have an account?")}{' '}
+          <a href="/auth/signup" className="text-gold hover:text-gold/90 transition-colors duration-200">
+            {t('إنشاء حساب جديد', 'Create New Account')}
+          </a>
+        </p>
+      </div>
     </div>
-  );
+  )
 }
-
-

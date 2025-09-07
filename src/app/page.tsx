@@ -1,66 +1,44 @@
+'use client'
 
-'use client';
+import { useState } from 'react'
+import Header from '@/components/layout/Header'
+import Footer from '@/components/layout/Footer'
+import HeroSection from '@/components/home/HeroSection'
+import FeaturesSection from '@/components/home/FeaturesSection'
+import StepsSection from '@/components/home/StepsSection'
+import AnalysisTypesSection from '@/components/home/AnalysisTypesSection'
+import FreeToolsSection from '@/components/home/FreeToolsSection'
+import TestimonialsSection from '@/components/home/TestimonialsSection'
+import PricingSection from '@/components/home/PricingSection'
+import AIBackground from '@/components/ui/AIBackground'
+import MarketTicker from '@/components/ui/MarketTicker'
 
-import { useState, useEffect } from 'react';
-import { motion } from 'framer-motion';
-import Header from '@/components/layout/Header';
-import Footer from '@/components/layout/Footer';
-import HeroSection from '@/components/home/HeroSection';
-import FeaturesSection from '@/components/home/FeaturesSection';
-import StepsSection from '@/components/home/StepsSection';
-import AnalysisTypesSection from '@/components/home/AnalysisTypesSection';
-import FreeToolsSection from '@/components/home/FreeToolsSection';
-import TestimonialsSection from '@/components/home/TestimonialsSection';
-import PricingSection from '@/components/home/PricingSection';
-import MarketTicker from '@/components/widgets/MarketTicker';
-import AIBackground from '@/components/effects/AIBackground';
+export default function Home() {
+  const [language, setLanguage] = useState<'ar' | 'en'>('en')
 
-export default function HomePage() {
-  const [language, setLanguage] = useState<'ar' | 'en'>('ar');
-
-  useEffect(() => {
-    // تحديد اتجاه الصفحة حسب اللغة
-    document.documentElement.dir = language === 'ar' ? 'rtl' : 'ltr';
-    document.documentElement.lang = language;
-  }, [language]);
+  const toggleLanguage = () => {
+    setLanguage(prev => prev === 'ar' ? 'en' : 'ar')
+  }
 
   return (
-    <div className="min-h-screen bg-black text-gold relative overflow-hidden">
-      {/* خلفية الذكاء الاصطناعي */}
+    <main className="min-h-screen bg-black text-white relative overflow-hidden">
       <AIBackground />
-      
-      {/* الهيدر */}
-      <Header language={language} setLanguage={setLanguage} />
-      
-      {/* شريط الأسعار المباشر */}
       <MarketTicker />
       
-      {/* المحتوى الرئيسي */}
-      <main className="relative z-10">
-        {/* قسم الهيرو */}
-        <HeroSection language={language} />
-        
-        {/* قسم المميزات */}
-        <FeaturesSection language={language} />
-        
-        {/* قسم الخطوات */}
-        <StepsSection language={language} />
-        
-        {/* قسم أنواع التحليل */}
-        <AnalysisTypesSection language={language} />
-        
-        {/* قسم الأدوات المجانية */}
-        <FreeToolsSection language={language} />
-        
-        {/* قسم آراء العملاء */}
-        <TestimonialsSection language={language} />
-        
-        {/* قسم الأسعار */}
-        <PricingSection language={language} />
-      </main>
+      <Header 
+        language={language} 
+        onLanguageToggle={toggleLanguage}
+      />
       
-      {/* الفوتر */}
+      <HeroSection language={language} />
+      <FeaturesSection language={language} />
+      <StepsSection language={language} />
+      <AnalysisTypesSection language={language} />
+      <FreeToolsSection language={language} />
+      <TestimonialsSection language={language} />
+      <PricingSection language={language} />
+      
       <Footer language={language} />
-    </div>
-  );
+    </main>
+  )
 }
