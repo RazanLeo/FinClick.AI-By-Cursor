@@ -1,0 +1,38 @@
+<svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="200" height="60" rx="8" fill="url(#gradient1)"/>
+  
+  <!-- Main Logo Design -->
+  <g transform="translate(20, 15)">
+    <!-- F Letter -->
+    <rect x="0" y="0" width="6" height="30" fill="#FFD700"/>
+    <rect x="0" y="0" width="20" height="6" fill="#FFD700"/>
+    <rect x="0" y="12" width="15" height="6" fill="#FFD700"/>
+    
+    <!-- AI Symbol -->
+    <circle cx="35" cy="15" r="12" fill="none" stroke="#FFD700" stroke-width="3"/>
+    <path d="M29 15 L35 9 L41 15 M29 15 L35 21 L41 15" stroke="#FFD700" stroke-width="2" fill="none"/>
+    
+    <!-- Circuit Pattern -->
+    <rect x="50" y="5" width="3" height="3" fill="#FFD700"/>
+    <rect x="55" y="8" width="3" height="3" fill="#FFD700"/>
+    <rect x="60" y="11" width="3" height="3" fill="#FFD700"/>
+    <rect x="65" y="14" width="3" height="3" fill="#FFD700"/>
+    <rect x="70" y="17" width="3" height="3" fill="#FFD700"/>
+    
+    <!-- Connection Lines -->
+    <path d="M52.5 6.5 L57.5 9.5 M57.5 9.5 L62.5 12.5 M62.5 12.5 L67.5 15.5 M67.5 15.5 L72.5 18.5" stroke="#FFD700" stroke-width="1" fill="none"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="100" y="25" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#FFD700">FinClick.AI</text>
+  <text x="100" y="40" font-family="Arial, sans-serif" font-size="10" fill="#FFD700" opacity="0.8">Revolutionary Financial Analysis</text>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>
