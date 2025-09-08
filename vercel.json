@@ -1,3 +1,4 @@
+
 {
   "framework": "nextjs",
   "buildCommand": "npm run build",
@@ -7,14 +8,5 @@
     "src/app/api/**/*.ts": {
       "runtime": "nodejs18.x"
     }
-  },
-  "env": {
-    "NEXT_PUBLIC_SUPABASE_URL": "@supabase_url",
-    "NEXT_PUBLIC_SUPABASE_ANON_KEY": "@supabase_anon_key",
-    "NEXT_PUBLIC_PAYTABS_MERCHANT_EMAIL": "@paytabs_email",
-    "NEXT_PUBLIC_PAYTABS_SECRET_KEY": "@paytabs_secret_key",
-    "NEXT_PUBLIC_PAYTABS_SERVER_KEY": "@paytabs_server_key",
-    "NEXT_PUBLIC_APP_URL": "@app_url",
-    "NEXT_PUBLIC_APP_NAME": "FinClick.AI"
   }
 }
